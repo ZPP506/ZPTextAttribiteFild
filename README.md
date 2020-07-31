@@ -41,7 +41,7 @@ pod 'ZPTextAttribiteFild'
 
 ## Author
 
-ZPP506, zhangpengpeng@yungengxin.com
+ZPP506, 944160330@qq.com
 
 ## License
 
