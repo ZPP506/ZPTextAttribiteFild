@@ -1,0 +1,6 @@
+framework module ZPTextAttribiteFild {
+  umbrella header "ZPTextAttribiteFild-umbrella.h"
+
+  export *
+  module * { export * }
+}

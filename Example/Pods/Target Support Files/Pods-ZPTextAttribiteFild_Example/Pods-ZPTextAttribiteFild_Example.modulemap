@@ -1,0 +1,6 @@
+framework module Pods_ZPTextAttribiteFild_Example {
+  umbrella header "Pods-ZPTextAttribiteFild_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
