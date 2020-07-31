@@ -1,15 +1,34 @@
-# ZPTextAttribiteFild
-
-[![CI Status](https://img.shields.io/travis/ZPP506/ZPTextAttribiteFild.svg?style=flat)](https://travis-ci.org/ZPP506/ZPTextAttribiteFild)
-[![Version](https://img.shields.io/cocoapods/v/ZPTextAttribiteFild.svg?style=flat)](https://cocoapods.org/pods/ZPTextAttribiteFild)
-[![License](https://img.shields.io/cocoapods/l/ZPTextAttribiteFild.svg?style=flat)](https://cocoapods.org/pods/ZPTextAttribiteFild)
-[![Platform](https://img.shields.io/cocoapods/p/ZPTextAttribiteFild.svg?style=flat)](https://cocoapods.org/pods/ZPTextAttribiteFild)
 
 ## Example
 
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
-## Requirements
+![骑上蜗牛去看大海 2020-07-07 18.04.21.gif](https://upload-images.jianshu.io/upload_images/11285123-fbde0fbf66af04e9.gif?imageMogr2/auto-orient/strip)
+
+
+## ZPTextAttribiteBaseVrify 
+校验输入框内容基类
+
+## ZPTextAttribiteFild：
+```
+/// placeHold 和 输入框的间距
+@property (nonatomic, assign) CGFloat placeHoldSpaceFild;
+/// 输入框距离底部的间距
+@property (nonatomic, assign) CGFloat fildSpaceBottom;
+/// 占位文字颜色
+@property (nonatomic, strong) UIColor *placeholderTextColor;
+/// 底部线的颜色
+@property (nonatomic, strong) UIColor *lineColor;
+/// 底部线选中后的颜色
+@property (nonatomic, strong) UIColor *lineSelecateColor;
+/// 占位文字大小
+@property (nonatomic, strong) UIFont *placeholderFont;
+/// 验证输入合法性
+@property (nonatomic, strong) ZPTextAttribiteBaseVrify * verify;
+
+```
+
+![placeHoldSpaceFild.png](https://upload-images.jianshu.io/upload_images/11285123-6f14d4d74f37d316.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
 
 ## Installation
 
