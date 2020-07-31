@@ -11,11 +11,8 @@
 #endif
 
 #import "ZPTextAttribiteBaseVrify.h"
-#import "UITextAttribiteFild.h"
-#import "UITextAttribiteIDNumberVrify.h"
-#import "UITextAttribiteNameVrify.h"
-#import "UITextAttribitePhotoVrify.h"
-#import "UITextAttribiterAddressvify.h"
+#import "ZPTextAttribiteFild.h"
+#import "ZPTextAttribiteNameVrify.h"
 
 FOUNDATION_EXPORT double ZPTextAttribiteFildVersionNumber;
 FOUNDATION_EXPORT const unsigned char ZPTextAttribiteFildVersionString[];
