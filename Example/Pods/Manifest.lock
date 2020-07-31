@@ -1,15 +1,22 @@
 PODS:
-  - ZPTextAttribiteFild (0.1.0)
+  - Masonry (1.1.0)
+  - ZPTextAttribiteFild (0.1.0):
+    - Masonry
 
 DEPENDENCIES:
   - ZPTextAttribiteFild (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - Masonry
 
 EXTERNAL SOURCES:
   ZPTextAttribiteFild:
     :path: "../"
 
 SPEC CHECKSUMS:
-  ZPTextAttribiteFild: 72a247bf61d4af7c2fd3c01e767481f9ca20209a
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  ZPTextAttribiteFild: 72b907bfc0e9e1902ce6906a69705c84890fcbc6
 
 PODFILE CHECKSUM: c7aa9d1775380c67a173960645ef7547c0d88c87
 

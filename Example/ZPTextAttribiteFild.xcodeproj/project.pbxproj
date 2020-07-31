@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1964E36224D3EC2200DF3AD0 /* MineAddressAttribiteFild.m in Sources */ = {isa = PBXBuildFile; fileRef = 1964E36124D3EC2200DF3AD0 /* MineAddressAttribiteFild.m */; };
+		1964E36624D3EC6200DF3AD0 /* MineNewAddressController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1964E36324D3EC6200DF3AD0 /* MineNewAddressController.m */; };
+		1964E36724D3EC6200DF3AD0 /* MineNewAddressController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1964E36524D3EC6200DF3AD0 /* MineNewAddressController.storyboard */; };
 		518E207438E5EDEFB3FEA9CC /* Pods_ZPTextAttribiteFild_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 490A48DE212F579CF4E5B538 /* Pods_ZPTextAttribiteFild_Example.framework */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
@@ -22,7 +25,6 @@
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
-		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		8BDF09C9F5DECE8FDC66FAD3 /* Pods_ZPTextAttribiteFild_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E51BC64F0C7BA4EB0E0E3346 /* Pods_ZPTextAttribiteFild_Tests.framework */; };
 /* End PBXBuildFile section */
 
@@ -38,7 +40,12 @@
 
 /* Begin PBXFileReference section */
 		0C63ABB14401FCA20C934774 /* Pods-ZPTextAttribiteFild_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZPTextAttribiteFild_Example.release.xcconfig"; path = "Target Support Files/Pods-ZPTextAttribiteFild_Example/Pods-ZPTextAttribiteFild_Example.release.xcconfig"; sourceTree = "<group>"; };
-		2DA945D81F598A2B3C1D480C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		1964E36024D3EC2200DF3AD0 /* MineAddressAttribiteFild.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MineAddressAttribiteFild.h; sourceTree = "<group>"; };
+		1964E36124D3EC2200DF3AD0 /* MineAddressAttribiteFild.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MineAddressAttribiteFild.m; sourceTree = "<group>"; };
+		1964E36324D3EC6200DF3AD0 /* MineNewAddressController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MineNewAddressController.m; sourceTree = "<group>"; };
+		1964E36424D3EC6200DF3AD0 /* MineNewAddressController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MineNewAddressController.h; sourceTree = "<group>"; };
+		1964E36524D3EC6200DF3AD0 /* MineNewAddressController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MineNewAddressController.storyboard; sourceTree = "<group>"; };
+		2DA945D81F598A2B3C1D480C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		490A48DE212F579CF4E5B538 /* Pods_ZPTextAttribiteFild_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZPTextAttribiteFild_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58A195388D20070C39A /* ZPTextAttribiteFild_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZPTextAttribiteFild_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -59,11 +66,10 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
-		65CCFC1DFBD957D902703B65 /* ZPTextAttribiteFild.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = ZPTextAttribiteFild.podspec; path = ../ZPTextAttribiteFild.podspec; sourceTree = "<group>"; };
+		65CCFC1DFBD957D902703B65 /* ZPTextAttribiteFild.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ZPTextAttribiteFild.podspec; path = ../ZPTextAttribiteFild.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		77FB530DBD6A7C865FBE66BE /* Pods-ZPTextAttribiteFild_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZPTextAttribiteFild_Tests.release.xcconfig"; path = "Target Support Files/Pods-ZPTextAttribiteFild_Tests/Pods-ZPTextAttribiteFild_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		ACDEFDA3F35DDCB67F068A98 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		ACDEFDA3F35DDCB67F068A98 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		AD8D4BA5787CBD136DC07F7D /* Pods-ZPTextAttribiteFild_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZPTextAttribiteFild_Example.debug.xcconfig"; path = "Target Support Files/Pods-ZPTextAttribiteFild_Example/Pods-ZPTextAttribiteFild_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		E51BC64F0C7BA4EB0E0E3346 /* Pods_ZPTextAttribiteFild_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZPTextAttribiteFild_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF9FB9FDD6ABEC1C85F1EE69 /* Pods-ZPTextAttribiteFild_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZPTextAttribiteFild_Tests.debug.xcconfig"; path = "Target Support Files/Pods-ZPTextAttribiteFild_Tests/Pods-ZPTextAttribiteFild_Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -134,10 +140,14 @@
 			children = (
 				6003F59C195388D20070C39A /* ZPAppDelegate.h */,
 				6003F59D195388D20070C39A /* ZPAppDelegate.m */,
-				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
 				6003F5A5195388D20070C39A /* ZPViewController.h */,
 				6003F5A6195388D20070C39A /* ZPViewController.m */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
+				1964E36024D3EC2200DF3AD0 /* MineAddressAttribiteFild.h */,
+				1964E36124D3EC2200DF3AD0 /* MineAddressAttribiteFild.m */,
+				1964E36424D3EC6200DF3AD0 /* MineNewAddressController.h */,
+				1964E36324D3EC6200DF3AD0 /* MineNewAddressController.m */,
+				1964E36524D3EC6200DF3AD0 /* MineNewAddressController.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
 			);
@@ -193,7 +203,6 @@
 				EF9FB9FDD6ABEC1C85F1EE69 /* Pods-ZPTextAttribiteFild_Tests.debug.xcconfig */,
 				77FB530DBD6A7C865FBE66BE /* Pods-ZPTextAttribiteFild_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -248,6 +257,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = ZPP506;
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = UNRQF8Z7WA;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -258,6 +270,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -277,9 +290,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
+				1964E36724D3EC6200DF3AD0 /* MineNewAddressController.storyboard in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -302,10 +315,12 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-ZPTextAttribiteFild_Example/Pods-ZPTextAttribiteFild_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
 				"${BUILT_PRODUCTS_DIR}/ZPTextAttribiteFild/ZPTextAttribiteFild.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ZPTextAttribiteFild.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -367,6 +382,8 @@
 				6003F59E195388D20070C39A /* ZPAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* ZPViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
+				1964E36624D3EC6200DF3AD0 /* MineNewAddressController.m in Sources */,
+				1964E36224D3EC2200DF3AD0 /* MineAddressAttribiteFild.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -494,6 +511,7 @@
 			baseConfigurationReference = AD8D4BA5787CBD136DC07F7D /* Pods-ZPTextAttribiteFild_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = UNRQF8Z7WA;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ZPTextAttribiteFild/ZPTextAttribiteFild-Prefix.pch";
 				INFOPLIST_FILE = "ZPTextAttribiteFild/ZPTextAttribiteFild-Info.plist";
@@ -510,6 +528,7 @@
 			baseConfigurationReference = 0C63ABB14401FCA20C934774 /* Pods-ZPTextAttribiteFild_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = UNRQF8Z7WA;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ZPTextAttribiteFild/ZPTextAttribiteFild-Prefix.pch";
 				INFOPLIST_FILE = "ZPTextAttribiteFild/ZPTextAttribiteFild-Info.plist";

@@ -1,8 +1,8 @@
 {
   "name": "ZPTextAttribiteFild",
   "version": "0.1.0",
-  "summary": "A short description of ZPTextAttribiteFild.",
-  "description": "TODO: Add long description of the pod here.",
+  "summary": "ZPTextAttribiteFild 输入框",
+  "description": "输入框",
   "homepage": "https://github.com/ZPP506/ZPTextAttribiteFild",
   "license": {
     "type": "MIT",
@@ -18,5 +18,10 @@
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "ZPTextAttribiteFild/Classes/**/*"
+  "source_files": "ZPTextAttribiteFild/Classes/**/*",
+  "dependencies": {
+    "Masonry": [
+
+    ]
+  }
 }
