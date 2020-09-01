@@ -1,6 +1,6 @@
 {
   "name": "ZPTextAttribiteFild",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "summary": "ZPTextAttribiteFild 输入框",
   "description": "输入框",
   "homepage": "https://github.com/ZPP506/ZPTextAttribiteFild",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/ZPP506/ZPTextAttribiteFild.git",
-    "tag": "1.0.0"
+    "tag": "1.0.2"
   },
   "platforms": {
     "ios": "8.0"

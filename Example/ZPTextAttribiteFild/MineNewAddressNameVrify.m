@@ -6,10 +6,10 @@
 //  Copyright © 2019 FXEYE. All rights reserved.
 //
 
-#import "ZPTextAttribiteNameVrify.h"
+#import "MineNewAddressNameVrify.h"
 #import "ZPTextAttribiteFild.h"
 
-@implementation ZPTextAttribiteNameVrify
+@implementation MineNewAddressNameVrify
 /// 校验是否合法
 - (BOOL)Verify:(ZPTextAttribiteFild *)fild{
     

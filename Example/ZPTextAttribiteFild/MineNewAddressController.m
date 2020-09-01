@@ -8,7 +8,7 @@
 
 #import "MineNewAddressController.h"
 #import "ZPTextAttribiteFild.h"
-#import "ZPTextAttribiteNameVrify.h"
+#import "MineNewAddressNameVrify.h"
 
 @interface MineNewAddressController ()
 
@@ -33,7 +33,7 @@
     
     
     // 验证lastName
-    self.lastNameFild.verify = [ZPTextAttribiteNameVrify new];
+    self.lastNameFild.verify = [MineNewAddressNameVrify new];
     
     
 }

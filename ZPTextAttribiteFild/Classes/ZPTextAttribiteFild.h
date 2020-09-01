@@ -12,19 +12,26 @@
 
 
 @interface ZPTextAttribiteFild : UIControl
+
 /// placeHold 和 输入框的间距
 @property (nonatomic, assign) CGFloat placeHoldSpaceFild;
+
 /// 输入框距离底部的间距
 @property (nonatomic, assign) CGFloat fildSpaceBottom;
+
 /// 占位文字颜色
 @property (nonatomic, strong) UIColor *placeholderTextColor;
+
 /// 底部线的颜色
 @property (nonatomic, strong) UIColor *lineColor;
+
 /// 底部线选中后的颜色
 @property (nonatomic, strong) UIColor *lineSelecateColor;
+
 /// 占位文字大小
 @property (nonatomic, strong) UIFont *placeholderFont;
-/// 验证输入合法性
+
+/// 验证输入合法性(使用子类)
 @property (nonatomic, strong) ZPTextAttribiteBaseVrify * verify;
 
 @property(nullable, nonatomic,copy)   NSString               *text;                 // default is nil

@@ -1,6 +1,6 @@
 PODS:
   - Masonry (1.1.0)
-  - ZPTextAttribiteFild (1.0.0):
+  - ZPTextAttribiteFild (1.0.2):
     - Masonry
 
 DEPENDENCIES:
@@ -16,7 +16,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
-  ZPTextAttribiteFild: 23a1d488b99d32bb003ec776112edf332e86ad93
+  ZPTextAttribiteFild: c69efa288d040fc2fa8499713e542e3c645b4f54
 
 PODFILE CHECKSUM: c7aa9d1775380c67a173960645ef7547c0d88c87
 

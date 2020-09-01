@@ -12,7 +12,6 @@
 
 #import "ZPTextAttribiteBaseVrify.h"
 #import "ZPTextAttribiteFild.h"
-#import "ZPTextAttribiteNameVrify.h"
 
 FOUNDATION_EXPORT double ZPTextAttribiteFildVersionNumber;
 FOUNDATION_EXPORT const unsigned char ZPTextAttribiteFildVersionString[];

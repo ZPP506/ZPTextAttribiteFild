@@ -9,7 +9,7 @@
 #import "ZPTextAttribiteBaseVrify.h"
 
 
-@interface ZPTextAttribiteNameVrify : ZPTextAttribiteBaseVrify
+@interface MineNewAddressNameVrify : ZPTextAttribiteBaseVrify
 
 @end
 

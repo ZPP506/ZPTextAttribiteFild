@@ -10,11 +10,11 @@
 #import "Masonry.h"
 
 @interface  ZPTextAttribiteFild()
-/**<#name#>*/
+
 @property (nonatomic, strong) UILabel *placeholderLabel;
-/**<#name#>*/
+
 @property (nonatomic, strong) UITextField *textField;
-/**<#name#>*/
+
 @property (nonatomic, strong) UIView *lineView;
 
 @property (nonatomic, strong) UIView *selecateLineView;
@@ -87,14 +87,7 @@
 - (instancetype)initWithCoder:(NSCoder *)coder{
    self = [super initWithCoder:coder];
     if (self) {
-       [self addSubview:self.textField];
-       [self addSubview:self.placeholderLabel];
-        [self addSubview:self.lineView];
-        [self addSubview:self.selecateLineView];
-
-        UITapGestureRecognizer * tap = [[UITapGestureRecognizer alloc]initWithTarget:self action:@selector(tapBeginEditing)];
-       [self addGestureRecognizer:tap];
-       [self makeConstraints];
+       [self configSubviews];
     }
     return self;
 }
@@ -106,13 +99,18 @@
 {
     self = [super initWithFrame:frame];
     if (self) {
-        [self addSubview:self.textField];
-        [self addSubview:self.placeholderLabel];
-        [self addSubview:self.lineView];
-        [self addSubview:self.selecateLineView];
-        [self makeConstraints];
+        [self configSubviews];
     }
     return self;
+}
+- (void)configSubviews{
+    [self addSubview:self.textField];
+    [self addSubview:self.placeholderLabel];
+    [self addSubview:self.lineView];
+    [self addSubview:self.selecateLineView];
+    UITapGestureRecognizer * tap = [[UITapGestureRecognizer alloc]initWithTarget:self action:@selector(tapBeginEditing)];
+    [self addGestureRecognizer:tap];
+    [self makeConstraints];
 }
 - (void)setPlaceholderFont:(UIFont *)placeholderFont{
     _placeholderFont  = placeholderFont;

@@ -10,6 +10,7 @@
 		1964E36224D3EC2200DF3AD0 /* MineAddressAttribiteFild.m in Sources */ = {isa = PBXBuildFile; fileRef = 1964E36124D3EC2200DF3AD0 /* MineAddressAttribiteFild.m */; };
 		1964E36624D3EC6200DF3AD0 /* MineNewAddressController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1964E36324D3EC6200DF3AD0 /* MineNewAddressController.m */; };
 		1964E36724D3EC6200DF3AD0 /* MineNewAddressController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1964E36524D3EC6200DF3AD0 /* MineNewAddressController.storyboard */; };
+		19821CDF24FDE17800453D85 /* MineNewAddressNameVrify.m in Sources */ = {isa = PBXBuildFile; fileRef = 19821CDE24FDE17800453D85 /* MineNewAddressNameVrify.m */; };
 		518E207438E5EDEFB3FEA9CC /* Pods_ZPTextAttribiteFild_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 490A48DE212F579CF4E5B538 /* Pods_ZPTextAttribiteFild_Example.framework */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
@@ -45,6 +46,8 @@
 		1964E36324D3EC6200DF3AD0 /* MineNewAddressController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MineNewAddressController.m; sourceTree = "<group>"; };
 		1964E36424D3EC6200DF3AD0 /* MineNewAddressController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MineNewAddressController.h; sourceTree = "<group>"; };
 		1964E36524D3EC6200DF3AD0 /* MineNewAddressController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MineNewAddressController.storyboard; sourceTree = "<group>"; };
+		19821CDD24FDE17800453D85 /* MineNewAddressNameVrify.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MineNewAddressNameVrify.h; sourceTree = "<group>"; };
+		19821CDE24FDE17800453D85 /* MineNewAddressNameVrify.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MineNewAddressNameVrify.m; sourceTree = "<group>"; };
 		2DA945D81F598A2B3C1D480C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		490A48DE212F579CF4E5B538 /* Pods_ZPTextAttribiteFild_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZPTextAttribiteFild_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58A195388D20070C39A /* ZPTextAttribiteFild_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZPTextAttribiteFild_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -145,6 +148,8 @@
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				1964E36024D3EC2200DF3AD0 /* MineAddressAttribiteFild.h */,
 				1964E36124D3EC2200DF3AD0 /* MineAddressAttribiteFild.m */,
+				19821CDD24FDE17800453D85 /* MineNewAddressNameVrify.h */,
+				19821CDE24FDE17800453D85 /* MineNewAddressNameVrify.m */,
 				1964E36424D3EC6200DF3AD0 /* MineNewAddressController.h */,
 				1964E36324D3EC6200DF3AD0 /* MineNewAddressController.m */,
 				1964E36524D3EC6200DF3AD0 /* MineNewAddressController.storyboard */,
@@ -258,7 +263,7 @@
 				ORGANIZATIONNAME = ZPP506;
 				TargetAttributes = {
 					6003F589195388D20070C39A = {
-						DevelopmentTeam = UNRQF8Z7WA;
+						DevelopmentTeam = 35SKQ5277L;
 					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
@@ -382,6 +387,7 @@
 				6003F59E195388D20070C39A /* ZPAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* ZPViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
+				19821CDF24FDE17800453D85 /* MineNewAddressNameVrify.m in Sources */,
 				1964E36624D3EC6200DF3AD0 /* MineNewAddressController.m in Sources */,
 				1964E36224D3EC2200DF3AD0 /* MineAddressAttribiteFild.m in Sources */,
 			);
@@ -511,7 +517,7 @@
 			baseConfigurationReference = AD8D4BA5787CBD136DC07F7D /* Pods-ZPTextAttribiteFild_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = UNRQF8Z7WA;
+				DEVELOPMENT_TEAM = 35SKQ5277L;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ZPTextAttribiteFild/ZPTextAttribiteFild-Prefix.pch";
 				INFOPLIST_FILE = "ZPTextAttribiteFild/ZPTextAttribiteFild-Info.plist";
@@ -528,7 +534,7 @@
 			baseConfigurationReference = 0C63ABB14401FCA20C934774 /* Pods-ZPTextAttribiteFild_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = UNRQF8Z7WA;
+				DEVELOPMENT_TEAM = 35SKQ5277L;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ZPTextAttribiteFild/ZPTextAttribiteFild-Prefix.pch";
 				INFOPLIST_FILE = "ZPTextAttribiteFild/ZPTextAttribiteFild-Info.plist";
