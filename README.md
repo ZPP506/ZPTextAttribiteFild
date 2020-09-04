@@ -36,7 +36,7 @@ ZPTextAttribiteFild is available through [CocoaPods](https://cocoapods.org). To 
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod 'ZPTextAttribiteFild'
+pod 'ZPTextAttribiteFild', '~> 1.0.3'
 ```
 
 ## Author
