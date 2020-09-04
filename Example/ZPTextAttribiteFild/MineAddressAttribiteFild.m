@@ -22,6 +22,7 @@
         self.fildSpaceBottom = 12;
         self.lineColor = [UIColor grayColor];
         self.lineSelecateColor = [UIColor redColor];
+//        self.secureTextEntry = true
     }
     return self;
 }
