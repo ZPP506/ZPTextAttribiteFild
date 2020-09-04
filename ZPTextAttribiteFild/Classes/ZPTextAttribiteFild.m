@@ -294,3 +294,90 @@
     self.textField.defaultTextAttributes = defaultTextAttributes;
 }
 @end
+
+// MARK: - UITextInputTraits 协议
+@implementation ZPTextAttribiteFild(InputTraits)
+- (UITextAutocapitalizationType)autocapitalizationType{
+    return _textField.autocapitalizationType;
+}
+- (void)setAutocapitalizationType:(UITextAutocapitalizationType)autocapitalizationType{
+    _textField.autocapitalizationType = autocapitalizationType;
+}
+- (UITextAutocorrectionType)autocorrectionType{
+    return _textField.autocorrectionType;
+}
+
+-(void)setAutocorrectionType:(UITextAutocorrectionType)autocorrectionType {
+    _textField.autocorrectionType = autocorrectionType;
+}
+- (UITextSpellCheckingType)spellCheckingType{
+    return _textField.spellCheckingType;
+}
+- (void)setSpellCheckingType:(UITextSpellCheckingType)spellCheckingType{
+    _textField.spellCheckingType = spellCheckingType;
+}
+
+- (UITextSmartQuotesType)smartQuotesType API_AVAILABLE(ios(11.0)){
+    return _textField.smartQuotesType;
+}
+- (void)setSmartQuotesType:(UITextSmartQuotesType)smartQuotesType API_AVAILABLE(ios(11.0)){
+    _textField.smartQuotesType = smartQuotesType;
+}
+- (UITextSmartDashesType)smartDashesType API_AVAILABLE(ios(11.0)){
+    
+    return _textField.smartDashesType;
+}
+- (void)setSmartDashesType:(UITextSmartDashesType)smartDashesType API_AVAILABLE(ios(11.0)){
+    _textField.smartDashesType = smartDashesType;
+}
+- (UITextSmartInsertDeleteType)smartInsertDeleteType API_AVAILABLE(ios(11.0)){
+    return _textField.smartInsertDeleteType;
+}
+- (void)setSmartInsertDeleteType:(UITextSmartInsertDeleteType)smartInsertDeleteType API_AVAILABLE(ios(11.0)){
+    _textField.smartInsertDeleteType = smartInsertDeleteType;
+}
+- (UIKeyboardType)keyboardType{
+    return _textField.keyboardType;
+}
+- (void)setKeyboardType:(UIKeyboardType)keyboardType{
+    _textField.keyboardType = keyboardType;
+}
+- (UIKeyboardAppearance)keyboardAppearance{
+    
+    return _textField.keyboardAppearance;
+}
+- (void)setKeyboardAppearance:(UIKeyboardAppearance)keyboardAppearance{
+    _textField.keyboardAppearance = keyboardAppearance;
+}
+- (UIReturnKeyType)returnKeyType{
+    return _textField.returnKeyType;
+}
+- (void)setReturnKeyType:(UIReturnKeyType)returnKeyType{
+    _textField.returnKeyType = returnKeyType;
+}
+- (BOOL)enablesReturnKeyAutomatically{
+    return _textField.enablesReturnKeyAutomatically;
+}
+- (void)setEnablesReturnKeyAutomatically:(BOOL)enablesReturnKeyAutomatically{
+    _textField.enablesReturnKeyAutomatically = enablesReturnKeyAutomatically;
+}
+- (BOOL)isSecureTextEntry{
+    return _textField.secureTextEntry;
+}
+- (void)setSecureTextEntry:(BOOL)secureTextEntry{
+    _textField.secureTextEntry = secureTextEntry;
+}
+- (UITextContentType)textContentType API_AVAILABLE(ios(10.0)){
+    return _textField.textContentType;
+}
+- (void)setTextContentType:(UITextContentType)textContentType API_AVAILABLE(ios(10.0)){
+    _textField.textContentType = textContentType;
+}
+- (UITextInputPasswordRules *)passwordRules API_AVAILABLE(ios(12.0)){
+    return _textField.passwordRules;
+}
+- (void)setPasswordRules:(UITextInputPasswordRules *)passwordRules API_AVAILABLE(ios(12.0)){
+    _textField.passwordRules = passwordRules;
+}
+
+@end

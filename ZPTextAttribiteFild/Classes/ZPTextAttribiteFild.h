@@ -72,3 +72,7 @@
 @property(nonatomic)        UITextFieldViewMode  rightViewMode;
 @end
 
+// MARK: - UITextInputTraits
+@interface ZPTextAttribiteFild(InputTraits)<UITextInputTraits>
+
+@end
