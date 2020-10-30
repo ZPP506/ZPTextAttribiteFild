@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ZPTextAttribiteFild'
-  s.version          = '1.0.4'
+  s.version          = '1.0.3'
   s.summary          = 'ZPTextAttribiteFild 输入框'
 
 # This description is used to generate tags and improve search results.
@@ -30,7 +30,7 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'Sources/ZPTextAttribiteFild/Classes/**/*'
+  s.source_files = 'ZPTextAttribiteFild/Classes/**/*'
   
   # s.resource_bundles = {
   #   'ZPTextAttribiteFild' => ['ZPTextAttribiteFild/Assets/*.png']
