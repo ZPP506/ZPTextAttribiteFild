@@ -1,0 +1,78 @@
+client:
+  name: basic
+tools: {}
+targets:
+  "PackageStructure": ["<PackageStructure>"]
+  "ZPTextAttribiteFild-debug.module": ["<ZPTextAttribiteFild-debug.module>"]
+  "ZPTextAttribiteFildPackageTests-debug.test": ["<ZPTextAttribiteFildPackageTests-debug.test>"]
+  "ZPTextAttribiteFildTests-debug.module": ["<ZPTextAttribiteFildTests-debug.module>"]
+  "main": ["<ZPTextAttribiteFild-debug.module>"]
+  "test": ["<ZPTextAttribiteFild-debug.module>","<ZPTextAttribiteFildPackageTests-debug.test>","<ZPTextAttribiteFildTests-debug.module>"]
+default: "main"
+nodes:
+  "/Users/ywl-g/Desktop/ZPTextAttribiteFild/Sources/ZPTextAttribiteFild/":
+    is-directory-structure: true
+  "/Users/ywl-g/Desktop/ZPTextAttribiteFild/Tests/ZPTextAttribiteFildTests/":
+    is-directory-structure: true
+commands:
+  "<ZPTextAttribiteFild-debug.module>":
+    tool: phony
+    inputs: ["/Users/ywl-g/Desktop/ZPTextAttribiteFild/.build/x86_64-apple-macosx/debug/ZPTextAttribiteFild.build/ZPTextAttribiteFild.swift.o","/Users/ywl-g/Desktop/ZPTextAttribiteFild/.build/x86_64-apple-macosx/debug/ZPTextAttribiteFild.swiftmodule"]
+    outputs: ["<ZPTextAttribiteFild-debug.module>"]
+
+  "<ZPTextAttribiteFildPackageTests-debug.test>":
+    tool: phony
+    inputs: ["/Users/ywl-g/Desktop/ZPTextAttribiteFild/.build/x86_64-apple-macosx/debug/ZPTextAttribiteFildPackageTests.xctest/Contents/MacOS/ZPTextAttribiteFildPackageTests"]
+    outputs: ["<ZPTextAttribiteFildPackageTests-debug.test>"]
+
+  "<ZPTextAttribiteFildTests-debug.module>":
+    tool: phony
+    inputs: ["/Users/ywl-g/Desktop/ZPTextAttribiteFild/.build/x86_64-apple-macosx/debug/ZPTextAttribiteFildTests.build/XCTestManifests.swift.o","/Users/ywl-g/Desktop/ZPTextAttribiteFild/.build/x86_64-apple-macosx/debug/ZPTextAttribiteFildTests.build/ZPTextAttribiteFildTests.swift.o","/Users/ywl-g/Desktop/ZPTextAttribiteFild/.build/x86_64-apple-macosx/debug/ZPTextAttribiteFildTests.swiftmodule"]
+    outputs: ["<ZPTextAttribiteFildTests-debug.module>"]
+
+  "C.ZPTextAttribiteFild-debug.module":
+    tool: swift-compiler
+    inputs: ["/Users/ywl-g/Desktop/ZPTextAttribiteFild/Sources/ZPTextAttribiteFild/ZPTextAttribiteFild.swift"]
+    outputs: ["/Users/ywl-g/Desktop/ZPTextAttribiteFild/.build/x86_64-apple-macosx/debug/ZPTextAttribiteFild.build/ZPTextAttribiteFild.swift.o","/Users/ywl-g/Desktop/ZPTextAttribiteFild/.build/x86_64-apple-macosx/debug/ZPTextAttribiteFild.swiftmodule"]
+    executable: "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    module-name: "ZPTextAttribiteFild"
+    module-output-path: "/Users/ywl-g/Desktop/ZPTextAttribiteFild/.build/x86_64-apple-macosx/debug/ZPTextAttribiteFild.swiftmodule"
+    import-paths: ["/Users/ywl-g/Desktop/ZPTextAttribiteFild/.build/x86_64-apple-macosx/debug"]
+    temps-path: "/Users/ywl-g/Desktop/ZPTextAttribiteFild/.build/x86_64-apple-macosx/debug/ZPTextAttribiteFild.build"
+    objects: ["/Users/ywl-g/Desktop/ZPTextAttribiteFild/.build/x86_64-apple-macosx/debug/ZPTextAttribiteFild.build/ZPTextAttribiteFild.swift.o"]
+    other-args: ["-target","x86_64-apple-macosx10.10","-swift-version","5","-enable-batch-mode","-index-store-path","/Users/ywl-g/Desktop/ZPTextAttribiteFild/.build/x86_64-apple-macosx/debug/index/store","-sdk","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-I","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib","-L","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib","-Onone","-enable-testing","-g","-j12","-DSWIFT_PACKAGE","-DDEBUG","-module-cache-path","/Users/ywl-g/Desktop/ZPTextAttribiteFild/.build/x86_64-apple-macosx/debug/ModuleCache","-parseable-output","-emit-objc-header","-emit-objc-header-path","/Users/ywl-g/Desktop/ZPTextAttribiteFild/.build/x86_64-apple-macosx/debug/ZPTextAttribiteFild.build/ZPTextAttribiteFild-Swift.h","-color-diagnostics"]
+    sources: ["/Users/ywl-g/Desktop/ZPTextAttribiteFild/Sources/ZPTextAttribiteFild/ZPTextAttribiteFild.swift"]
+    is-library: true
+    enable-whole-module-optimization: false
+    num-threads: 12
+
+  "C.ZPTextAttribiteFildPackageTests-debug.test":
+    tool: shell
+    inputs: ["/Users/ywl-g/Desktop/ZPTextAttribiteFild/.build/x86_64-apple-macosx/debug/ZPTextAttribiteFild.build/ZPTextAttribiteFild.swift.o","/Users/ywl-g/Desktop/ZPTextAttribiteFild/.build/x86_64-apple-macosx/debug/ZPTextAttribiteFildTests.build/XCTestManifests.swift.o","/Users/ywl-g/Desktop/ZPTextAttribiteFild/.build/x86_64-apple-macosx/debug/ZPTextAttribiteFildTests.build/ZPTextAttribiteFildTests.swift.o"]
+    outputs: ["/Users/ywl-g/Desktop/ZPTextAttribiteFild/.build/x86_64-apple-macosx/debug/ZPTextAttribiteFildPackageTests.xctest/Contents/MacOS/ZPTextAttribiteFildPackageTests"]
+    description: "Linking ./.build/x86_64-apple-macosx/debug/ZPTextAttribiteFildPackageTests.xctest/Contents/MacOS/ZPTextAttribiteFildPackageTests"
+    args: ["/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc","-sdk","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-I","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib","-L","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib","-L","/Users/ywl-g/Desktop/ZPTextAttribiteFild/.build/x86_64-apple-macosx/debug","-o","/Users/ywl-g/Desktop/ZPTextAttribiteFild/.build/x86_64-apple-macosx/debug/ZPTextAttribiteFildPackageTests.xctest/Contents/MacOS/ZPTextAttribiteFildPackageTests","-module-name","ZPTextAttribiteFildPackageTests","-Xlinker","-bundle","-Xlinker","-rpath","-Xlinker","@loader_path/../../../","@/Users/ywl-g/Desktop/ZPTextAttribiteFild/.build/x86_64-apple-macosx/debug/ZPTextAttribiteFildPackageTests.product/Objects.LinkFileList","-Xlinker","-rpath","-Xlinker","/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx","-target","x86_64-apple-macosx10.15","-Xlinker","-add_ast_path","-Xlinker","/Users/ywl-g/Desktop/ZPTextAttribiteFild/.build/x86_64-apple-macosx/debug/ZPTextAttribiteFild.swiftmodule","-Xlinker","-add_ast_path","-Xlinker","/Users/ywl-g/Desktop/ZPTextAttribiteFild/.build/x86_64-apple-macosx/debug/ZPTextAttribiteFildTests.swiftmodule","-L","/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib"]
+
+  "C.ZPTextAttribiteFildTests-debug.module":
+    tool: swift-compiler
+    inputs: ["/Users/ywl-g/Desktop/ZPTextAttribiteFild/Tests/ZPTextAttribiteFildTests/XCTestManifests.swift","/Users/ywl-g/Desktop/ZPTextAttribiteFild/Tests/ZPTextAttribiteFildTests/ZPTextAttribiteFildTests.swift","/Users/ywl-g/Desktop/ZPTextAttribiteFild/.build/x86_64-apple-macosx/debug/ZPTextAttribiteFild.swiftmodule"]
+    outputs: ["/Users/ywl-g/Desktop/ZPTextAttribiteFild/.build/x86_64-apple-macosx/debug/ZPTextAttribiteFildTests.build/XCTestManifests.swift.o","/Users/ywl-g/Desktop/ZPTextAttribiteFild/.build/x86_64-apple-macosx/debug/ZPTextAttribiteFildTests.build/ZPTextAttribiteFildTests.swift.o","/Users/ywl-g/Desktop/ZPTextAttribiteFild/.build/x86_64-apple-macosx/debug/ZPTextAttribiteFildTests.swiftmodule"]
+    executable: "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    module-name: "ZPTextAttribiteFildTests"
+    module-output-path: "/Users/ywl-g/Desktop/ZPTextAttribiteFild/.build/x86_64-apple-macosx/debug/ZPTextAttribiteFildTests.swiftmodule"
+    import-paths: ["/Users/ywl-g/Desktop/ZPTextAttribiteFild/.build/x86_64-apple-macosx/debug"]
+    temps-path: "/Users/ywl-g/Desktop/ZPTextAttribiteFild/.build/x86_64-apple-macosx/debug/ZPTextAttribiteFildTests.build"
+    objects: ["/Users/ywl-g/Desktop/ZPTextAttribiteFild/.build/x86_64-apple-macosx/debug/ZPTextAttribiteFildTests.build/XCTestManifests.swift.o","/Users/ywl-g/Desktop/ZPTextAttribiteFild/.build/x86_64-apple-macosx/debug/ZPTextAttribiteFildTests.build/ZPTextAttribiteFildTests.swift.o"]
+    other-args: ["-target","x86_64-apple-macosx10.15","-swift-version","5","-enable-batch-mode","-index-store-path","/Users/ywl-g/Desktop/ZPTextAttribiteFild/.build/x86_64-apple-macosx/debug/index/store","-sdk","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-I","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib","-L","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib","-Onone","-enable-testing","-g","-j12","-DSWIFT_PACKAGE","-DDEBUG","-module-cache-path","/Users/ywl-g/Desktop/ZPTextAttribiteFild/.build/x86_64-apple-macosx/debug/ModuleCache","-parseable-output","-color-diagnostics"]
+    sources: ["/Users/ywl-g/Desktop/ZPTextAttribiteFild/Tests/ZPTextAttribiteFildTests/XCTestManifests.swift","/Users/ywl-g/Desktop/ZPTextAttribiteFild/Tests/ZPTextAttribiteFildTests/ZPTextAttribiteFildTests.swift"]
+    is-library: true
+    enable-whole-module-optimization: false
+    num-threads: 12
+
+  "PackageStructure":
+    tool: package-structure-tool
+    inputs: ["/Users/ywl-g/Desktop/ZPTextAttribiteFild/Sources/ZPTextAttribiteFild/","/Users/ywl-g/Desktop/ZPTextAttribiteFild/Tests/ZPTextAttribiteFildTests/","/Users/ywl-g/Desktop/ZPTextAttribiteFild/Package.swift","/Users/ywl-g/Desktop/ZPTextAttribiteFild/Package.resolved"]
+    outputs: ["<PackageStructure>"]
+    description: "Planning build"
+    allow-missing-inputs: true
+

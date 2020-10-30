@@ -1,0 +1,5 @@
+version: "Apple Swift version 5.3 (swiftlang-1200.0.29.2 clang-1200.0.30.1)"
+options: "7a5f222e1f296f6831f8556ba1e502c9"
+build_time: [1604035058, 182883000]
+inputs:
+  "/Users/ywl-g/Desktop/ZPTextAttribiteFild/Sources/ZPTextAttribiteFild/ZPTextAttribiteFild.swift": [1604035033, 148066598]

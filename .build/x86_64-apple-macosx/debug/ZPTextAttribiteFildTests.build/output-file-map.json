@@ -1,0 +1,17 @@
+{
+  "": {
+    "swift-dependencies": "/Users/ywl-g/Desktop/ZPTextAttribiteFild/.build/x86_64-apple-macosx/debug/ZPTextAttribiteFildTests.build/master.swiftdeps"
+  },
+  "/Users/ywl-g/Desktop/ZPTextAttribiteFild/Tests/ZPTextAttribiteFildTests/XCTestManifests.swift": {
+    "dependencies": "/Users/ywl-g/Desktop/ZPTextAttribiteFild/.build/x86_64-apple-macosx/debug/ZPTextAttribiteFildTests.build/XCTestManifests.d",
+    "object": "/Users/ywl-g/Desktop/ZPTextAttribiteFild/.build/x86_64-apple-macosx/debug/ZPTextAttribiteFildTests.build/XCTestManifests.swift.o",
+    "swiftmodule": "/Users/ywl-g/Desktop/ZPTextAttribiteFild/.build/x86_64-apple-macosx/debug/ZPTextAttribiteFildTests.build/XCTestManifests~partial.swiftmodule",
+    "swift-dependencies": "/Users/ywl-g/Desktop/ZPTextAttribiteFild/.build/x86_64-apple-macosx/debug/ZPTextAttribiteFildTests.build/XCTestManifests.swiftdeps"
+  },
+  "/Users/ywl-g/Desktop/ZPTextAttribiteFild/Tests/ZPTextAttribiteFildTests/ZPTextAttribiteFildTests.swift": {
+    "dependencies": "/Users/ywl-g/Desktop/ZPTextAttribiteFild/.build/x86_64-apple-macosx/debug/ZPTextAttribiteFildTests.build/ZPTextAttribiteFildTests.d",
+    "object": "/Users/ywl-g/Desktop/ZPTextAttribiteFild/.build/x86_64-apple-macosx/debug/ZPTextAttribiteFildTests.build/ZPTextAttribiteFildTests.swift.o",
+    "swiftmodule": "/Users/ywl-g/Desktop/ZPTextAttribiteFild/.build/x86_64-apple-macosx/debug/ZPTextAttribiteFildTests.build/ZPTextAttribiteFildTests~partial.swiftmodule",
+    "swift-dependencies": "/Users/ywl-g/Desktop/ZPTextAttribiteFild/.build/x86_64-apple-macosx/debug/ZPTextAttribiteFildTests.build/ZPTextAttribiteFildTests.swiftdeps"
+  }
+}
