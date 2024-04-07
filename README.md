@@ -1,6 +1,4 @@
 
-## Example
-
 ## 该工具是装饰模式 + 策略模式的一种应用
 ![placeHoldSpaceFild.png](https://upload-images.jianshu.io/upload_images/11285123-6f14d4d74f37d316.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
